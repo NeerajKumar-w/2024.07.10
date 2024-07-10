@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <style>
+      .heading {
+        background-color: blue;
+        color: white;
+        position: absolute;
+        left: 5px;
+        top: 0;
+        z-index: 1;
+      }
+      .box {
+        position: absolute;
+        top: 5px;
+        height: 400px;
+        width: 300px;
+        background-color: darkblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 5px 5px 5px 5px;
+      }
+      .task {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        color: white;
+      }
+    </style>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="content">
+      <div style="position: relative; height: 450px; width: 350px">
+        <p class="heading">Todo List</p>
+        <div class="box">
+          <div class="task">
+            <input type="checkbox" name="" value="" /><label for=""
+              >Attend Meeting</label
+            >
+          </div>
+          <div class="task">
+            <input type="checkbox" name="" value="" /><label for=""
+              >Attend Meeting</label
+            >
+          </div>
+          <div class="task">
+            <input type="checkbox" name="" value="" /><label for=""
+              >Attend Meeting</label
+            >
+          </div>
+          <div class="task">
+            <input type="checkbox" name="" value="" /><label for=""
+              >Attend Meeting</label
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href="./style.css" rel="stylesheet" />
+    <style>
+      .box{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-evenly;
+        gap:10px;
+        height:300px;
+        width:500px;
+      }
+      .greybox{
+        background-color:lightgrey;
+        height:100%;
+        width:100%;
+        padding-left:5px;
+        padding-right:5px;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-evenly;
+      }
+      .whitebox{
+        display:flex;
+        flex-direction:column;
+        height:40%;
+        width:98%;
+        justify-content:center;
+        gap:10px;
+        padding-left:5px;
+        padding-right:5px;
+        background-color:white;
+      }
+      .size{
+        width:99%;
+      }
+      .check{
+        gap:4px;
+        display:flex;
+        flex-direction:row;
+      }
+      .inside{
+        border:none;
+        border-radius:0px;
+        background-color:green;
+        color:white;
+        height:15%;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="content">
+      <div class="box">
+        <h3>CSS Newsletter</h3>
+        <div class="greybox">
+          <p><h4>Subscribe to our Newsletter</h4><br>lorem ipsum that is not a paragraph. This is a fake paragraph to read. so you better not read this paragraph</p>
+          <div class="whitebox">
+            <input class="size" type="text" name="" value="" placeholder="Name">
+            <input class="size"type="email" name="" value="" placeholder="E-mail address">
+            <div class="check">
+            <input type="checkbox" name="" value="">
+            <h6>Daily Newsletter</h6>
+            </div>
+          </div>
+          <button type="submit" class="inside">Subscribe</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
